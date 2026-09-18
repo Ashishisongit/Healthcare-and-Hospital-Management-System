@@ -1,0 +1,21 @@
+/*
+-- Query: select * from PATIENT_MEDICAL_RECORD
+LIMIT 0, 1000
+
+-- Date: 2026-09-19 00:04
+*/
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-001',1,9,'Type 2 Diabetes','Metformin 500mg daily, dietary adjustments','Polyuria, increased thirst, fatigue','Low carbohydrate diet, daily morning walks');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-002',2,5,'Acute Viral Fever','Paracetamol 650mg, hydration, bed rest','High fever, body ache, chills','Check temperature every 4 hours, drink fluids');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-003',3,2,'Hypertension','Amlodipine 5mg once daily','Frequent headaches, dizziness','Reduce salt intake, avoid stressful activities');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-004',4,12,'Gastroenteritis','ORS fluids, Antibiotics, Probiotics','Vomiting, watery diarrhea, stomach cramps','Strict bland diet, avoid dairy products for 3 days');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-005',5,3,'Bronchial Asthma','Salbutamol inhaler twice daily as needed','Wheezing, shortness of breath, dry cough','Avoid dust and smoke, keep inhaler handy');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-006',6,12,'Migraine','Naproxen 500mg during onset, dark room rest','Severe unilateral headache, nausea, photophobia','Identify triggers, maintain a fixed sleep cycle');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-007',7,11,'Urinary Tract Infection','Course of Nitrofurantoin 100mg for 5 days','Burning frequent urination, pelvic pain','Drink plenty of water, complete antibiotic course');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-008',8,9,'Osteoarthritis','Physiotherapy sessions, Analgesics as needed','Knee joint pain, stiffness in morning','Avoid squatting, use knee support while walking');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-009',9,11,'Iron Deficiency Anemia','Iron supplements, Vitamin C tablets','Extreme fatigue, pale skin, weakness','Include green leafy vegetables and apples in diet');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-010',10,3,'Acute Tonsillitis','Amoxicillin 500mg, warm saline gargles','Severe throat pain, difficulty swallowing, fever','Avoid cold drinks, rest your throat');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-011',11,5,'Dengue Fever','Symptomatic treatment, platelet monitoring','High fever, joint pain, skin rashes','Complete bed rest, hospitalize if platelets drop');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-012',12,9,'Sciatica','Lumbar stretch exercises, NSAIDs for pain','Radiating pain from lower back to left leg','Avoid lifting weights, sleep on hard mattress');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-013',13,12,'Typhoid Fever','Ceftriaxone injection course for 5 days','Step-ladder fever, abdominal pain, weakness','Eat easily digestible foods, drink boil water');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-014',14,9,'Cervical Spondylosis','Cervical collar usage, physiotherapy','Neck pain radiating to shoulders, numbness','Maintain proper posture while working on laptop');
+INSERT INTO `` (`Record_ID`,`Patient_ID`,`Doctor_ID`,`Diagnosis`,`Treatment`,`Symptoms`,`Advice`) VALUES ('REC-2026-015',15,3,'Hyperthyroidism','Methimazole therapy, beta-blockers','Weight loss, tremors, rapid heart rate','Regular thyroid profile tests every 6 weeks');
