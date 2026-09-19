@@ -1,1 +1,1 @@
-This Repository Contains Databse of Healthcare and Hospital Management System. 
+This Repository Contains Database of Healthcare and Hospital Management System. 
