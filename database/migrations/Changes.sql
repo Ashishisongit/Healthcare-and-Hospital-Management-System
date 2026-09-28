@@ -13,3 +13,33 @@ SET email = CASE Dept_ID
     WHEN 5 THEN 'emergency@hhms.in'
 END
 WHERE Dept_ID IN (1, 2, 3, 4, 5);
+-- Reviewing the Patient Medical Record Assigned to Doctor with Staff_id =12
+select distinct * from patient_medical_record where doctor_id=12;
+INSERT INTO appointment (Patient_ID, Doctor_ID, Appointment_Date, Slot, Status) value
+(12, 3, '2026-10-01', '09:00:00', 'Pending');
+-- Safe Mode in SQL
+SET SQL_SAFE_UPDATES = 0;
+Delete From appointment where status ='Pending';
+-- Deleted Appontment having Appointment Status as Pending 
+select * from appointment where status ='Pending';
+Update appointment SET status ='Completed' where appointment_id=9;
+-- Adding Salary to the existing employees 
+alter table hospital_staff modify column salary decimal(10,2) not null;
+Update hospital_staff
+SET salary = Case Staff_id
+	WHEN 1 THEN 50230.45
+    WHEN 2 THEN 60245.15
+    WHEN 3 THEN 75123.21
+    WHEN 4 THEN 52350.45
+    WHEN 5 THEN 62030.15
+    WHEN 6 THEN 72120.21
+    WHEN 7 THEN 50450.45
+    WHEN 8 THEN 60420.15
+    WHEN 9 THEN 75020.21
+    WHEN 10 THEN 50340.45
+    WHEN 11 THEN 62300.15
+    WHEN 12 THEN 75200.21
+END
+WHERE Staff_id IN (1,2,3,4,5,6,7,8,9,10,11,12) ;
+select * from hospital_staff 
+order by Gender DESC,salary ASC;
