@@ -126,7 +126,9 @@ INSERT INTO Appointment (Patient_ID, Doctor_ID, Appointment_Date, Slot, Status) 
 (17,11,5,'2026-09-02','10:15:00','Scheduled'),
 (18,7,11,'2026-09-02','09:30:00','Scheduled'),
 (19,14,9,'2026-09-07','10:00:00','Cancelled'),
-(20,3,2,'2026-10-02','10:15:00','Completed');
+(20,3,2,'2026-10-02','10:15:00','Completed'),
+(21,14,9,'2026-09-14','11:00:00','Completed');
+
 
 -- desc PATIENT_MEDICAL_RECORD ;
 -- select * from PATIENT_MEDICAL_RECORD;
